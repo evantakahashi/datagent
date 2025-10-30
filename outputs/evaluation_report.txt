@@ -1,0 +1,100 @@
+================================================================================
+SYNTHETIC MEDICAL DATA EVALUATION REPORT
+================================================================================
+Generated: 2025-10-30 16:38:40
+
+DATASET INFORMATION
+--------------------------------------------------------------------------------
+Real records: 50
+Synthetic records: 50
+
+EMBEDDING COVERAGE METRICS (ClinicalBERT)
+--------------------------------------------------------------------------------
+Embeddings were not computed (skipped or failed)
+
+DISTRIBUTION METRICS
+--------------------------------------------------------------------------------
+FID Score: 135.5867 (lower is better)
+
+KL Divergences by Feature:
+  age_groups: 0.0017
+  average: 0.0229
+  ethnicity: 0.0213
+  num_conditions: 0.0527
+  severities: 0.0297
+  sex: 0.0090
+
+CONCEPT ENTROPY ANALYSIS
+--------------------------------------------------------------------------------
+Real Dataset Diversity Score: 0.9464
+Synthetic Dataset Diversity Score: 0.9387
+Diversity Score Difference: 0.0077
+
+Normalized Entropy by Dimension:
+  abnormal_labs:
+    Real: 0.9261
+    Synthetic: 0.8537
+    Difference: 0.0724
+  age_decades:
+    Real: 0.9715
+    Synthetic: 0.9480
+    Difference: 0.0235
+  age_groups:
+    Real: 0.9946
+    Synthetic: 0.9971
+    Difference: 0.0025
+  condition_names:
+    Real: 0.9379
+    Synthetic: 0.8864
+    Difference: 0.0514
+  condition_severities:
+    Real: 0.9930
+    Synthetic: 0.9834
+    Difference: 0.0096
+  condition_statuses:
+    Real: 0.9943
+    Synthetic: 0.9928
+    Difference: 0.0015
+  conditions:
+    Real: 0.9379
+    Synthetic: 0.8864
+    Difference: 0.0514
+  ethnicity:
+    Real: 0.8182
+    Synthetic: 0.8279
+    Difference: 0.0097
+  lab_tests:
+    Real: 0.9608
+    Synthetic: 0.8495
+    Difference: 0.1113
+  location:
+    Real: 0.9424
+    Synthetic: 0.9571
+    Difference: 0.0147
+  medications:
+    Real: 0.9326
+    Synthetic: 0.8251
+    Difference: 0.1075
+  num_conditions:
+    Real: 0.9602
+    Synthetic: 0.8869
+    Difference: 0.0733
+  num_lab_tests:
+    Real: 0.8603
+    Synthetic: 0.5942
+    Difference: 0.2661
+  num_medications:
+    Real: 0.8784
+    Synthetic: 0.8637
+    Difference: 0.0147
+  sex:
+    Real: 0.9883
+    Synthetic: 0.9986
+    Difference: 0.0103
+
+OVERALL ASSESSMENT
+--------------------------------------------------------------------------------
+Distribution Match: POOR - Diverges from real distribution
+Balance Quality: EXCELLENT - Very balanced like real data
+
+================================================================================

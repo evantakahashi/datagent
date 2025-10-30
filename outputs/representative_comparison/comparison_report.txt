@@ -1,0 +1,26 @@
+================================================================================
+REPRESENTATIVE vs RANDOM SAMPLING - DETAILED REPORT
+================================================================================
+Generated: 2025-10-30 16:45:36
+Target size: 50
+
+COMPARISON TABLE:
+--------------------------------------------------------------------------------
+Metric               | Random          | Representative  | Improvement    
+-------------------- | --------------- | --------------- | ---------------
+Coverage Score       | 0.837           | 0.909           | 8.6%           
+Diversity Score      | 0.893           | 0.961           | 7.6%           
+Coverage Gaps        | 2               | 2               | 0 fewer        
+Exact Duplicates     | 0               | 0               | 0 fewer        
+Near-Dup Pairs       | 34              | 0               | 34 fewer       
+Strata Covered       | 27              | 31              | +4             
+
+
+KEY INSIGHTS:
+--------------------------------------------------------------------------------
+1. ✓ Eliminated 34 near-duplicate pairs, ensuring each record contributes unique information.
+
+2. ✓ Increased diversity score by 6.8%, providing more balanced representation across categories.
+
+3. ✓ Covered 4 additional demographic strata, improving representation of rare combinations.
+

@@ -1,0 +1,27 @@
+Patient Record ID: PT895667
+
+DEMOGRAPHICS:
+Age: 28 years
+Sex: male
+Ethnicity: caucasian
+Location: Phoenix, AZ
+
+CHIEF COMPLAINT:
+wheezing
+
+VITAL SIGNS:
+Heart Rate: 69.3 bpm
+Blood Pressure: 108.1/71.2 mmHg
+Temperature: 98.4°F
+Respiratory Rate: 22.5 breaths/min
+Oxygen Saturation: 89.9%
+
+CONDITIONS:
+- Asthma (J45.909): mild, active
+
+MEDICATIONS:
+
+LABORATORY RESULTS:
+
+CLINICAL NOTES:
+Patient is a 28-year-old male who presents with wheezing. Past medical history significant for Asthma. Physical examination and laboratory findings as documented above. Plan discussed with patient. Follow-up scheduled.

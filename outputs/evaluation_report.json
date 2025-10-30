@@ -1,0 +1,273 @@
+{
+  "dataset_info": {
+    "n_real": 50,
+    "n_synthetic": 50,
+    "timestamp": "2025-10-30T16:38:40.161617"
+  },
+  "embedding_metrics": null,
+  "distribution_metrics": {
+    "fid_score": 135.5866935513812,
+    "kl_div_age_groups": 0.0017490680327857007,
+    "kl_div_sex": 0.008961202071086381,
+    "kl_div_ethnicity": 0.02131119749515057,
+    "kl_div_num_conditions": 0.0527097931590857,
+    "kl_div_severities": 0.02965772904559036,
+    "kl_div_average": 0.022877797960739743,
+    "heart_rate_mean_diff": 2.3700000000000045,
+    "heart_rate_std_diff": 1.4511916985243403,
+    "systolic_bp_mean_diff": 0.582000000000022,
+    "systolic_bp_std_diff": 1.0106601616312254,
+    "diastolic_bp_mean_diff": 3.2960000000000065,
+    "diastolic_bp_std_diff": 2.4419180105402365,
+    "temperature_mean_diff": 0.12999999999999545,
+    "temperature_std_diff": 0.013700761935275252,
+    "respiratory_rate_mean_diff": 0.4880000000000031,
+    "respiratory_rate_std_diff": 0.4357316463897183,
+    "oxygen_saturation_mean_diff": 0.7639999999999958,
+    "oxygen_saturation_std_diff": 0.2205159703882602
+  },
+  "entropy_comparison": {
+    "real_diversity_score": 0.9463928365609648,
+    "synthetic_diversity_score": 0.938687609800159,
+    "diversity_score_diff": 0.007705226760805872,
+    "entropy_differences": {
+      "age_decades": {
+        "real": 0.9715421672257217,
+        "synthetic": 0.9480358171290287,
+        "difference": 0.023506350096692996
+      },
+      "age_groups": {
+        "real": 0.9945912695938776,
+        "synthetic": 0.9971082643043144,
+        "difference": 0.0025169947104368706
+      },
+      "sex": {
+        "real": 0.9882608621450385,
+        "synthetic": 0.9985619145786563,
+        "difference": 0.010301052433617786
+      },
+      "ethnicity": {
+        "real": 0.8182197305120384,
+        "synthetic": 0.8278861836053825,
+        "difference": 0.009666453093344018
+      },
+      "location": {
+        "real": 0.9423928037870167,
+        "synthetic": 0.9571170060165107,
+        "difference": 0.014724202229493999
+      },
+      "conditions": {
+        "real": 0.9378860613326733,
+        "synthetic": 0.8864462664858006,
+        "difference": 0.051439794846872666
+      },
+      "condition_names": {
+        "real": 0.9378860613326733,
+        "synthetic": 0.8864462664858006,
+        "difference": 0.051439794846872666
+      },
+      "condition_severities": {
+        "real": 0.9930062592211962,
+        "synthetic": 0.9834354200266411,
+        "difference": 0.009570839194555147
+      },
+      "condition_statuses": {
+        "real": 0.9942929346520455,
+        "synthetic": 0.9927744539878083,
+        "difference": 0.0015184806642372095
+      },
+      "num_conditions": {
+        "real": 0.9602297178607614,
+        "synthetic": 0.8868841089973771,
+        "difference": 0.07334560886338426
+      },
+      "medications": {
+        "real": 0.9326236391963789,
+        "synthetic": 0.8251206762897569,
+        "difference": 0.10750296290662198
+      },
+      "num_medications": {
+        "real": 0.8783558753518946,
+        "synthetic": 0.8636978890233623,
+        "difference": 0.014657986328532324
+      },
+      "lab_tests": {
+        "real": 0.9608143276450215,
+        "synthetic": 0.8494895867339303,
+        "difference": 0.11132474091109124
+      },
+      "num_lab_tests": {
+        "real": 0.860319015304451,
+        "synthetic": 0.5942138498808872,
+        "difference": 0.26610516542356377
+      },
+      "abnormal_labs": {
+        "real": 0.9260681384181317,
+        "synthetic": 0.8536946263006876,
+        "difference": 0.07237351211744414
+      }
+    },
+    "real_metrics": {
+      "entropy": {
+        "age_decades": 2.9146265016771653,
+        "age_groups": 1.9891825391877551,
+        "sex": 1.5663564074302458,
+        "ethnicity": 1.8998473800670688,
+        "location": 3.130561131319764,
+        "conditions": 2.4244002984940227,
+        "condition_names": 2.4244002984940227,
+        "condition_severities": 1.5738776838469877,
+        "condition_statuses": 0.9942929346520455,
+        "num_conditions": 1.5219280948873626,
+        "medications": 2.61820556392523,
+        "num_medications": 2.0394791842889464,
+        "lab_tests": 2.6973468318977196,
+        "num_lab_tests": 1.9975988922012358,
+        "abnormal_labs": 2.5998019465488658
+      },
+      "normalized_entropy": {
+        "age_decades": 0.9715421672257217,
+        "age_groups": 0.9945912695938776,
+        "sex": 0.9882608621450385,
+        "ethnicity": 0.8182197305120384,
+        "location": 0.9423928037870167,
+        "conditions": 0.9378860613326733,
+        "condition_names": 0.9378860613326733,
+        "condition_severities": 0.9930062592211962,
+        "condition_statuses": 0.9942929346520455,
+        "num_conditions": 0.9602297178607614,
+        "medications": 0.9326236391963789,
+        "num_medications": 0.8783558753518946,
+        "lab_tests": 0.9608143276450215,
+        "num_lab_tests": 0.860319015304451,
+        "abnormal_labs": 0.9260681384181317
+      },
+      "unique_counts": {
+        "age_decades": 8,
+        "age_groups": 4,
+        "sex": 3,
+        "ethnicity": 5,
+        "location": 10,
+        "conditions": 6,
+        "condition_names": 6,
+        "condition_severities": 3,
+        "condition_statuses": 2,
+        "num_conditions": 3,
+        "medications": 7,
+        "num_medications": 5,
+        "lab_tests": 7,
+        "num_lab_tests": 5,
+        "abnormal_labs": 7
+      },
+      "total_counts": {
+        "age_decades": 50,
+        "age_groups": 50,
+        "sex": 50,
+        "ethnicity": 50,
+        "location": 50,
+        "conditions": 90,
+        "condition_names": 90,
+        "condition_severities": 90,
+        "condition_statuses": 90,
+        "num_conditions": 50,
+        "medications": 63,
+        "num_medications": 50,
+        "lab_tests": 85,
+        "num_lab_tests": 50,
+        "abnormal_labs": 41
+      },
+      "summary": {
+        "mean_entropy": 2.159460379261229,
+        "std_entropy": 0.5740556664900721,
+        "mean_normalized_entropy": 0.9397659242385947,
+        "std_normalized_entropy": 0.05042878138090156,
+        "min_normalized_entropy": 0.8182197305120384,
+        "max_normalized_entropy": 0.9945912695938776
+      },
+      "unbalanced_dimensions": {},
+      "overall_diversity_score": 0.9463928365609648
+    },
+    "synthetic_metrics": {
+      "entropy": {
+        "age_decades": 2.844107451387086,
+        "age_groups": 1.9942165286086289,
+        "sex": 1.5826831892554925,
+        "ethnicity": 1.922292189082415,
+        "location": 3.1794738723807234,
+        "conditions": 2.2914303577700674,
+        "condition_names": 2.2914303577700674,
+        "condition_severities": 1.5587082626231856,
+        "condition_statuses": 0.9927744539878083,
+        "num_conditions": 1.4056780552463373,
+        "medications": 2.316406591873549,
+        "num_medications": 1.7273957780467246,
+        "lab_tests": 2.38481877255418,
+        "num_lab_tests": 1.3797218324096137,
+        "abnormal_labs": 2.396623811079363
+      },
+      "normalized_entropy": {
+        "age_decades": 0.9480358171290287,
+        "age_groups": 0.9971082643043144,
+        "sex": 0.9985619145786563,
+        "ethnicity": 0.8278861836053825,
+        "location": 0.9571170060165107,
+        "conditions": 0.8864462664858006,
+        "condition_names": 0.8864462664858006,
+        "condition_severities": 0.9834354200266411,
+        "condition_statuses": 0.9927744539878083,
+        "num_conditions": 0.8868841089973771,
+        "medications": 0.8251206762897569,
+        "num_medications": 0.8636978890233623,
+        "lab_tests": 0.8494895867339303,
+        "num_lab_tests": 0.5942138498808872,
+        "abnormal_labs": 0.8536946263006876
+      },
+      "unique_counts": {
+        "age_decades": 8,
+        "age_groups": 4,
+        "sex": 3,
+        "ethnicity": 5,
+        "location": 10,
+        "conditions": 6,
+        "condition_names": 6,
+        "condition_severities": 3,
+        "condition_statuses": 2,
+        "num_conditions": 3,
+        "medications": 7,
+        "num_medications": 4,
+        "lab_tests": 7,
+        "num_lab_tests": 5,
+        "abnormal_labs": 7
+      },
+      "total_counts": {
+        "age_decades": 50,
+        "age_groups": 50,
+        "sex": 50,
+        "ethnicity": 50,
+        "location": 50,
+        "conditions": 80,
+        "condition_names": 80,
+        "condition_severities": 80,
+        "condition_statuses": 80,
+        "num_conditions": 50,
+        "medications": 47,
+        "num_medications": 50,
+        "lab_tests": 49,
+        "num_lab_tests": 50,
+        "abnormal_labs": 25
+      },
+      "summary": {
+        "mean_entropy": 2.0178507669383494,
+        "std_entropy": 0.5701468958303777,
+        "mean_normalized_entropy": 0.8900608219897296,
+        "std_normalized_entropy": 0.09988869465671017,
+        "min_normalized_entropy": 0.5942138498808872,
+        "max_normalized_entropy": 0.9985619145786563
+      },
+      "unbalanced_dimensions": {
+        "num_lab_tests": 0.5942138498808872
+      },
+      "overall_diversity_score": 0.938687609800159
+    }
+  }
+}
